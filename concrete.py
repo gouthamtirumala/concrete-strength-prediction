@@ -3,13 +3,13 @@ import numpy as np
 import pickle
 
 # Load the trained model
-model_filename = 'C:\\Users\\HP\\AI ELITE 20\\ML WEEKEND PROJECTS\\concrete_strength_model.pkl'
+model_filename = 'concrete_strength_model.pkl'
 with open(model_filename, 'rb') as file:
     model = pickle.load(file)
 
 # Display the image at the top
-st.image(r"C:\Users\HP\OneDrive\Pictures\inoopng.png")
-st.image(r"C:\Users\HP\Downloads\concrete.png.png", width=500)
+st.image(r"inoopng.png")
+st.image(r"concrete.png.png", width=500)
 
 # Title of the app
 st.title('Concrete Strength Prediction')
